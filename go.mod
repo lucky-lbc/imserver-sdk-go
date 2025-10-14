@@ -1,4 +1,4 @@
-module github.com/juggleim/imserver-sdk-go
+module github.com/lucky-lbc/imserver-sdk-go
 
 go 1.21.10
 
