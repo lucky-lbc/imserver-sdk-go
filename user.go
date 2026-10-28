@@ -29,6 +29,7 @@ type User struct {
 	IsAdmin       bool                      `json:"is_admin"`
 	PermitConver  *PermitConver             `json:"permit_conver,omitempty"`
 	PermitConvers []*PermitConver           `json:"permit_convers,omitempty"`
+	Secret        string                    `json:"secret"`
 }
 
 type UserRegResp struct {
